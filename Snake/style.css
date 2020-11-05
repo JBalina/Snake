@@ -1,0 +1,80 @@
+@font-face {
+	src: url(assets/fonts/slkscr.ttf);
+	font-family: slkscr;
+}
+
+@font-face {
+	src: url(assets/fonts/slkscrb.ttf);
+	font-family: slkscrb;
+}
+
+
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,213,34,1) 30%, rgba(22,213,34,1) 70%, rgba(2,0,36,1) 100%);
+	font-family: slkscr;
+}
+
+#title {
+	font-family: slkscrb;
+}
+
+.header {
+	display: flex;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#length-display {
+	text-align: right;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: 25px;
+}
+
+.grid {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	border-style: groove;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.snake {
+	background-color: lime;
+}
+
+.snacc {
+	background-color: red;
+}
+
+.text {
+	background-color: white;
+}
+
+#start-button {
+	cursor: pointer;
+	display: block;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: red;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#start-button:hover {
+	background-color: DarkRed;
+}
